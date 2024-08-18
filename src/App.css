@@ -1,0 +1,10 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-picks-container, .regional-news-container {
+  width: 100%; /* Full width */
+  overflow: hidden;
+}

@@ -1,0 +1,22 @@
+.regional-news {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    background-color: white;
+    overflow: hidden;
+  }
+  
+  .regional-news-content {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .regional-news-content::-webkit-scrollbar {
+    display: none;
+  }
+  
